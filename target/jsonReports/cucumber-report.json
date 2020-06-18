@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-to-banking-domain;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178159198,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens Bank Application",
+            "match": {
+              "location": "StepDefinition.user_opens_Bank_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3464906,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters valid credentials \"userName\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userName",
+                  "offset": 31
+                },
+                {
+                  "val": "password",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_credentials_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76676,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will be able to login successfuly",
+            "match": {
+              "location": "StepDefinition.user_will_be_able_to_login_successfuly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166031,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login with valid new credentials",
+        "description": "",
+        "id": "login-to-banking-domain;login-with-valid-new-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User opens Bank Application",
+            "match": {
+              "location": "StepDefinition.user_opens_Bank_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223387,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters valid credentials \"userName_2\" and \"password_2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userName_2",
+                  "offset": 31
+                },
+                {
+                  "val": "password_2",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_credentials_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192596,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User will be able to login successfuly",
+            "match": {
+              "location": "StepDefinition.user_will_be_able_to_login_successfuly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345947,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Banking domain",
+    "description": "",
+    "id": "login-to-banking-domain",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
